@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: auto;
+    height: 100%;
+    font-family: 'Montserrat';
+    background-color: #F2F0F1;
+}
+
+header{
+    background-color: #E94D4E;
+    color: white;
+    padding-bottom: 48px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}
+
+header a{
+    display: block;
+    font-family: 'Indie Flower';
+    font-size: 128px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 0;
+}
+
+.main-card{
+    background-color: #262626;
+    color: white;
+    width: 380px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main-card h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+
+.main-card img{
+    display: block;
+    margin: auto;
+}
+
+.main-card a{
+    display: block;
+    color: white;
+    background-color: #E94D4E;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 28px;
+}
+
+main{
+    display: flex;
+    width: 1181px;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+footer{
+    background-color: #E94D4E;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.block{
+    background-color: #262626;
+    width: 880px;
+    height: 512px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.cart-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 46px;
+}
+
+.ans{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid white;
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ans-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 344px;
+}
+
+.ans:hover{
+    background-color: white;
+    color: #262626;
+}
+
